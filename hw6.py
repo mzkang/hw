@@ -1,14 +1,20 @@
+
+
 def area_triangle(h, w):
     return 0.5 * h * w
 
 
+
+
+
 def distance(a,b):
-    a = (x,y)
-    b = (m,n)
-    for 
+    result = 0
+    for i in range(len(a)):
+        result += (a[i] - b[i])**2
+    return result ** 0.5
 
 
-    
+
     
     
     
@@ -19,6 +25,8 @@ def count(n):
     else :
         return 'zero!!'
 
+    
+    
     
     
 
