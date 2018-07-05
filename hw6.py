@@ -17,16 +17,31 @@ def distance(a,b):
 
     
     
-    
+#============??????????????????????return.....??????????????????/=============================
+
 def count(n):
     if n > 0 :
         print(n)
         return count(n-1)
     else :
         return 'zero!!'
+    
+x = count(5)
+print()
+print(x)
+#=============================================================================================
+    
+    
+def count(n):
+    if n > 0 :
+        print(n)
+        count(n-1)
+    else :
+        print('zero!!')
 
-    
-    
+x = count(5)
+print()
+print(x)    
     
     
 
